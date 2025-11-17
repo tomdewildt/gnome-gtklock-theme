@@ -1,0 +1,80 @@
+/* Containers */
+window, .background {
+  background-color: #2e2e33;
+  background-image: none;
+  color: #fafafb;
+  font-family: "Cantarell", sans-serif;
+}
+
+#window-box, #body-revealer, #body-grid, #message-box {
+  background-color: #2e2e33;
+  color: #fafafb;
+}
+
+/* Clock */
+#clock-label {
+  color: #fafafb;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+/* Input */
+#input-field {
+  border-radius: 8px;
+  padding: 9px 9px;
+  background-color: #47474b;
+  color: rgba(250, 250, 251, 0.7);
+}
+
+#input-field:hover {
+  background-color: #515155;
+  color: #fafafb;
+}
+
+#input-field:focus {
+  box-shadow: inset 0 0 0 2px #3584e4;
+  background-color: #4c4c51;
+  color: #fafafb;
+}
+
+#input-field:disabled {
+  background-color: #404043;
+  color: rgba(250, 250, 251, 0.5);
+}
+
+/* Button */
+#unlock-button {
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: bold;
+  color: #fafafb;
+  background-color: rgba(250, 250, 251, 0.1);
+  transition: all 150ms ease;
+}
+
+#unlock-button:hover {
+  background-color: rgba(250, 250, 251, 0.13);
+  color: #fafafb;
+}
+
+#unlock-button:active {
+  background-color: rgba(250, 250, 251, 0.16);
+  color: #fafafb;
+}
+
+#unlock-button:focus {
+  background-color: rgba(250, 250, 251, 0.14);
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.3);
+  color: #fafafb;
+}
+
+#unlock-button:disabled {
+  background-color: rgba(242, 242, 244, 0.1);
+  color: rgba(250, 250, 251, 0.5);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+}
+
+/* Labels */
+#error-label {
+  color: #e5a50a;
+}
